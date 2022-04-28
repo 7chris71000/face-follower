@@ -1,0 +1,11 @@
+New updates for today's demo
+
+Changed from gpiozero to pigpio.
+
+Setting up pigpio as a daemon in the background to use its own separate process:
+	sudo pigpiod
+
+Had to put everything in the same file so I could use global variables. 
+Three different files was not working with imports.
+Now I can have a global array with the x and y locations of faces found.
+I use the first face in the array so it doesnt catch other weird ones in the background.

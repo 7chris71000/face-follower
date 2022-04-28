@@ -1,0 +1,5 @@
+Remove noise in servos (pigpio file https://steemit.com/python/@makerhacks/jitter-free-servo-control-on-the-raspberry-pi)
+3d print holders for servos
+listener for change of face location. Currently is an infinite while loop
+
+Pressurized gas for launcher
